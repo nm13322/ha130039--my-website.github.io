@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<title>My Website 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+<style>
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -50px 2px;
+    border-radius: 50%;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -50px 2px;
+    border-radius: 50%;
+    }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -50px 2px;
+    border-radius: 50%;
+    }
+  .fa-behance {
+    background: #55ACEE
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -50px 2px;
+    border-radius: 50%;
+  }
+  div-1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: hi;
+    animation-duration: 1.0s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: alternate;
+  }
+  @keyframes hi {
+    0%   { top:550px;opacity:0%}
+    }
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    body, html {
+      height: 100%;
+      color: #777;
+      line-height: 1.8;
+    }
+    /* Create a Parallax Effect */
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+  <a href="me Website.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="about me ass3.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="late code.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="contact me ass3.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div-1 class="w3-display-middle" style="white-space:nowrap;">
+    <h1 style="font-size: 100px;color: #FFFFFF; margin-left: -530px;margin-top: -120px;font-family: 'Oswald', sans-serif;">Hello, My name</h1>
+    <h1 style="font-size: 150px;color: #FFFFFF; margin-left: -530px;margin-top: -60px;font-family: 'Oswald', sans-serif;"><b>N.Minh</b></h1>
+  </div-1>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide" style="font-family: 'Charm', cursive; font-size: 40px">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center"> <b> MY WORK </b></h3>
+  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+  <!---------------------1-------------------------------------->
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/7.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Chopper from one piece ">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/8.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Spear Mega from pokemon">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/9.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Shark">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/10.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gyarados from pokemon">
+    </div>
+  </div>
+ <!---------------------2-------------------------------------->
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/vở 3Artboard 1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Notebooks for children">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/001.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Notebooks for children">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/1 cảm xúc lạ mà ta không muốn nhận ra.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A strange feeling that we don't want to recognize">
+    </div>
+        <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/cá hóa rồng.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tet is coming">
+    </div>
+  </div>
+ <!---------------------3-------------------------------------->
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/ấn phẩm 1.3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Logo inspiration show">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/ấn phẩm 3Artboard 1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Logo inspiration show">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/Asset 3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Nothing can stop your step from becoming successful">
+    </div>
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/banr portfolio.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="every mascot I have created">
+    </div>
+  </div>
+<!---------------------4-------------------------------------->
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="girl demon">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="slime">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tensei Shitara Slime Datta Ken">
+    </div>
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/4.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="girl demon">
+    </div>
+  </div>
+<!---------------------5-------------------------------------->
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/5.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="girl demon">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/6.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="slime">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/11.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tensei Shitara Slime Datta Ken">
+    </div>
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/ấn phẩm 4.0.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="girl demon">
+    </div>
+  </div>
+  <!---------------------6-------------------------------------->
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/81690.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="mockup logo">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/102.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="slime">
+    </div>
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/mockup ao.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="mockup ao">
+    </div>
+    <div class="w3-col m3">
+      <img src="E:/gọi/renders/webb/web 2 -1/1/mockup.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="set logo of my design">
+  </div>
+</div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide" style="font-family: 'Charm', cursive; font-size: 40px">CONTACT</span>
+  </div>
+</div>
+
+<
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32  w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+<div class="footer">
+  <p style="color: #FFFFFF ;font-size: 30px;">Follow me on</p>
+  <a style="margin-top: -20px" href="https://www.facebook.com/profile.php?id=100010988791959" class="fa fa-facebook"></a>
+  <a  style="margin-top: -20px" href="https://www.youtube.com/channel/UCJdEhOesl8SZZmmwt1ZDuqQ" class="fa fa-youtube"></a>
+  <a style="margin-top: -20px" href="https://www.instagram.com/m_mon_99/" class="fa fa-instagram"></a>
+  <a style="margin-top: -20px" href="https://www.behance.net/ngcminhnguyn1" class="fa fa-behance"></a>
+</div>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+</body>
+</html>
